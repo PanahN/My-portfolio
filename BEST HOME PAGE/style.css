@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1500px;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 20px 20px 50px grey;
+}
+
+/* ------------------------------------------------------------------ASIDE----------------------------------------------------------- */
+
+aside{
+    background-image: url(image/ornaments_texture1132.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 375px;
+}
+
+/* ------------------------------------------------------------------UP-ASIDE--------------------------------------------------------------- */
+
+.up-aside{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.up-aside img{
+    width: 20px;
+    padding-right: 5px;
+}
+
+.up-aside p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* -----------------------------------------------------------------------MIDDLE-ASIDE-------------------------------------------------------------- */
+
+.middle-aside h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.middle-aside h1 span{
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------DOWN-ASIDE-------------------------------------------------------- */
+
+.down-aside{
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.down-aside span{
+    color: white;
+}
+
+.down-aside h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.down-aside a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+/* ---------------------------------------------------------------------------SECTION------------------------------------------------------ */
+
+.white{
+    background-color: white;
+    width: 1125px;
+    height: 470px;
+}
+
+.grey{
+    position: relative;
+    background-color: grey;
+    width: 1125px;
+    height: 240px;
+}
+
+.grey img{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+    width: 800px;
+}

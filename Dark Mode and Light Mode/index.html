@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode and Light Mode</title>
+</head>
+<body>
+    
+    <div style="display: flex; justify-content: center;">
+
+
+
+        <!-- 1-ci üsul - "onclick" və ya "ondblclick" vasitəsilə -->
+
+        <!-- 1-ci üsul-un 1-ci forması -->
+
+        <!-- <input type="button" id="dark" value="Dark Mode" onclick="dark()"  ondblclick="light()"> -->
+
+        <!--  -->
+
+        <!-- 1-ci üsul-un 2-ci forması -->
+
+        <!-- Yuxarıdakı input-dan "ondblclick" sil və aşağıdakı input ilə birlikdə istfadə et -->
+
+        <!-- <input type="button" id="light" value="Light Mode" onclick="light()"> -->
+
+
+
+        <!--  -->
+
+
+
+        <!-- 2-ci üsul - "classList.toggle", "classList.contains" və " if else" vasitəsilə -->
+
+        <!-- <input type="button" value="Toggle Mode" onclick="toggleMode()"/> -->
+
+
+
+        <!--  -->        
+
+
+        
+        <!-- 3-cü üsul - mən hazırladığım "classList.toggle", "classList.contains" və " if else" vasitəsilə -->
+
+        <style>
+
+            #dark{
+                background-color: black;
+                color: white;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                outline: none;
+                border-radius: 15px;
+                box-shadow: 0 9px #999;
+            }
+
+            #dark:active {
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+
+        </style>
+
+        <input type="button" id="dark" value="Dark Mode" onclick="dark()">
+
+    </div>
+
+    <script src="../Dark Mode and Light Mode/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1728px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border: 1px solid #000000;
+}
+
+/* --------------------------------------------------------------------------------------HEADER-------------------------------------------------------------- */
+
+header{
+    width: 1728px;
+    height: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .main{
+    width: 1525.96px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .main nav ul{
+    width: 521.56px;
+    height: 38px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .main nav ul li{
+    list-style: none;
+}
+
+header .main nav ul li .home{
+    color: #E60F0F;
+    font-weight: 700;
+}
+
+header .main nav ul li a{
+    text-decoration: none;
+    color: #1F1F1F;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.demo{
+    width: 184.48px;
+    height: 54px;
+    background-color: #E60F0F;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.contact{
+    width: 184.48px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #E60F0F;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* -------------------------------------------------------------------section class="e-learning"---------------------------------------------------------------------- */
+
+.e-learning{
+    width: 1728px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EAF8E9;
+}
+
+.e-learning h2{
+    width: 712px;
+    height: 112px;
+    padding-bottom: 32px;
+    padding-left: 146px;
+    color: #231B70;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;    
+}
+
+.e-learning div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 207px;
+    height: 54px;
+    background: linear-gradient(93.89deg, #E60F0F 0%, #AC0606 100%);
+    border-radius: 4px;
+    margin-left: 146px;
+}
+
+.e-learning div a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* -------------------------------------------------------------------------section class="cloud-based"--------------------------------------------------------------- */
+
+.cloud-based{
+    width: 1728px;
+    height: 773px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(101.87deg, rgba(35, 27, 112, 0) -12.9%, #1000A8 100%), 
+    url(../image/Rectangle\ 71.png);
+}
+
+.cloud-based p{
+    width: 623px;
+    height: 336px;
+    padding-right: 145px;
+    color: #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 56px;    
+}
+
+.cloud-based p span{
+    font-weight: 700;    
+}
+
+/* --------------------------------------------------------------------section class="works"-------------------------------------------------------------------- */
+
+.works{
+    position: relative;
+    width: 1728px;
+    height: 788px;
+}
+
+.works h2{
+    width: 268px;
+    height: 148px;
+    padding-right: 74px;
+    color: #231B70;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 74px;
+}
+
+.works img{
+    width: 90px;
+    height: 90px;
+    margin-top: -7px;
+    padding-right: 16px;
+}
+
+.works h3{
+    width: 320.02px;
+    padding-bottom: 32px;
+    color: #231B70;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 40px;
+}
+
+.works p{
+    width: 415px;
+    color: #161616;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;  
+}
+
+/* -----------------------------------------------------------------first-line----------------------------------------------------------------- */
+
+.works .first-line{
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+
+.works .first-line article{
+    padding-right: 70px;
+}
+
+/* -----------------------------------------------------------------second-line----------------------------------------------------------------- */
+
+.works .second-line{
+    display: flex;
+    justify-content: center;
+    padding-top: 52px;
+}
+
+.works .second-line .black-circle{
+    position: absolute;
+    bottom: 235px;
+    left: 158px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+.works .second-line img{
+    margin-top: -35px;
+}
+
+.works .second-line article{
+    padding-right: 318px;
+}
+
+/* ---------------------------------------------------------------------------section class="mobile-web"------------------------------------------------------------ */
+
+.mobile-web{
+    width: 1728px;
+    height: 1174px;
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-web nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1430px;
+    height: 64px;
+    padding-bottom: 16px;
+}
+
+.mobile-web nav ul li{
+    list-style: none;
+}
+
+.mobile-web nav ul .features{
+    width: 124px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #F06F6F;
+}
+
+.mobile-web nav ul .features a{
+    color: #EB3F3F;
+    font-weight: 700;
+}
+
+.mobile-web nav ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.mobile-web article{
+    width: 1430px;
+    height: 586px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.mobile-web article div{
+    width: 633px;
+    height: 436px;
+    padding-top: 52px;
+    padding-left: 52px;
+    padding-right: 40px;
+}
+
+.mobile-web article div h2{
+    color: #231B70;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 40px;
+    padding-bottom: 32px;
+}
+
+.mobile-web article div p{
+    color: #000000;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mobile-web .anytime{
+    width: 804px;
+    height: 144px;
+    color: #231B70;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 48px;
+    padding-top: 132px;
+    padding-bottom: 40px;
+}
+
+.mobile-web .book-demo{
+    width: 166px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(97.44deg, #E60F0F 0%, #AC0606 100%);
+    border-radius: 4px;
+}
+
+.mobile-web .book-demo a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* ----------------------------------------------------------------------------section class="faq"------------------------------------------------------------------- */
+
+.faq{
+    position: relative;
+    width: 1728px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(288.9deg, #231B70 0%, #1000A8 100%);
+}
+
+.faq .light-green-circle{
+    position: absolute;
+    top: 53px;
+    left: 168px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #9FCE9D;
+}
+
+.faq h3{
+    width: 41px;
+    height: 16px;
+    color: #FDE7E7;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    padding-bottom: 8px; 
+}
+
+.faq h2{
+    width: 602px;
+    height: 80px;
+    color: #D9D9D9;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 39px;
+    line-height: 80px;
+    padding-bottom: 40px;
+}
+
+.faq article{
+    width: 854px;
+    height: 200px;
+    background-color: #E6FFE5;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.faq article div{
+    width: 797.26px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 28.37px 16px;
+}
+
+.faq article div h4 , .faq article div span{
+    color: #231B70;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.faq article p{
+    width: 708px;
+    height: 96px;
+    color: #231B70;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 28px;
+}
+
+.faq .plus{
+    width: 854px;
+    height: 80px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.faq .plus div{
+    width: 797.26px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .plus div h5 , .faq .plus div span{
+    color: #D9D9D9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ---------------------------------------------------------------------------section class="expert"--------------------------------------------------------------- */
+
+.user-information{
+    width: 1728px;
+    height: 1153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-information .expert{
+    position: relative;
+    width: 728px;
+    height: 793px;
+}
+
+.user-information .text{
+    position: absolute;
+    left: 56px;
+    bottom: 56px;
+    width: 417px;
+    height: 224px;
+}
+
+.user-information .text h2{
+    color: #D9D9D9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 74px; 
+    padding-bottom: 20px; 
+}
+
+.user-information .text p{
+    color: #D9D9D9;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; 
+}
+
+.user-information article{
+    width: 707px;
+    height: 793px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/* -------------------------------------------------------------------------------------form------------------------------------------------------------------------ */
+
+.user-information article form{
+    width: 563px;
+    height: 543px;
+}
+
+.two-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-information form label{
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.user-information form .two-row input{
+    width: 271px;
+    height: 51px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.user-information form textarea{
+    width: 563px;
+    height: 108px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.user-information form textarea::placeholder{
+    color: #D9D9D9;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    padding-top: 16px;
+    padding-left: 16px;  
+}
+
+.user-information form select{
+    width: 563px;
+    height: 56px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.user-information form .third-row input{
+    width: 563px;
+    height: 51px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+    background: linear-gradient(90.47deg, #E60F0F 0%, #AC0606 100%);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.user-information form .privacy-policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-information form .privacy-policy p{
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.user-information form .privacy-policy p span{
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;    
+}
+
+/* -----------------------------------------------------------------------------------FOOTER---------------------------------------------------------------------- */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1728px;
+    height: 307px;
+    background-color: #D9D9D9;   
+}
+
+footer div{
+    color: #91919F;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+}

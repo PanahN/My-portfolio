@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+header img{
+    width: 15%;
+    border-radius: 30%;
+    padding-right: 20%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    background-color: #3b7687;
+    border: 2px solid #000000;
+}
+
+.link-title{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+}
+
+.menu{
+    background-color: #3b7687;
+    padding: 6px 0px 6px 40px;
+}
+
+.menu a{
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu a:hover{
+    color: #ecf2f3;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    padding: 30px 0px 0px 40px;
+}
+
+h1{
+    margin: 0;
+    color: #869843;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.main{
+    margin: 0px 0px 0px 180px;
+    padding: 35px 40px 30px 0px;
+    color: #444444;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+.home-image img{
+    width: 99%;
+    border:3px solid #3b7687;
+}
+
+footer{
+    background-color: #d6d6d6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #444444;
+    font-size: 11px;
+    text-align: right;
+    padding: 6px 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #262626;
+}
+
+.separator{
+    color: white;
+    font-size: 11px;
+}
+
+/* -------------------------------------------------------About Page-------------------------------------------------------------- */
+
+.about-image img{
+    float: left;
+    width: 60%;
+    padding-right: 10px;
+}
+
+.page-info{
+    margin: 49px 0px;
+    font-size: 15px;
+    color: #3b7687;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.des{
+    padding-top: 26px;
+}
+
+/* ---------------------------------------------------------------Contact Page--------------------------------------------------------------- */
+
+.head-contact{
+    color: #869843;
+    text-align: center;
+    padding: 5px 5px 10px 10px;
+    margin: 0px;
+}
+
+#div-form{
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;     
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form textarea{
+    margin-top: 20px;
+}
+
+#submit{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #3b7687;
+    color: white;
+}
